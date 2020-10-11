@@ -11,12 +11,18 @@ const Dashboard = () => {
     const handleLogout = async () => {
         setError('');
 
+        let isLogoutSuccessful = false;
+
         try {
             await logout();
-            history.push('/login');
+            isLogoutSuccessful = true;
         }
         catch {
             setError('Failed to log out');
+        }
+
+        if (isLogoutSuccessful) {
+            history.push('/login');
         }
     };
 

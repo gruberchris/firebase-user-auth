@@ -1,3 +1,5 @@
+This is a demonstration project showing how to integrate Firebase use authentication with React.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

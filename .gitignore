@@ -27,3 +27,5 @@ yarn-error.log*
 .idea
 
 debug.log
+.firebase
+
